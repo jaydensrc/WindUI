@@ -15,7 +15,7 @@ function PandaDevelopment.New(serviceId)
     local frequest, fsetclipboard = request or http_request or syn_request, setclipboard or toclipboard
 
     function ValidateKey(key)
-        local validationUrl = "https://pandadevelopment.net/v2_validation?key=" .. tostring(key) .. "&service=" .. tostring(serviceId) .. "&hwid=" .. tostring(hwid())
+        local validationUrl = "https://pandadevelopment.net/v2_validation?key=" .. tostring(key) .. "&service=" .. tostring("pyrowh") .. "&hwid=" .. tostring(hwid())
     
         
         local success, response = pcall(function()
