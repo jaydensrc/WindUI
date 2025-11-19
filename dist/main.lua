@@ -2431,7 +2431,7 @@ local ab=aa.New
 
 
 local ac,ad=unpack(a.load'n')
-local ae=Instance.new("Folder",game:GetService"Workspace".CurrentCamera)
+local ae=Instance.new("Folder")--,game:GetService"Workspace".CurrentCamera)
 
 
 local function createAcrylic()
